@@ -1,3 +1,29 @@
 .Keyboard {
-	padding: 24px;
+	position: relative;
+}
+
+.Keyboard .keyboard {
+	width: 100%;
+}
+
+.Keyboard .key {
+	display: none;
+	position: absolute;
+}
+
+.Keyboard .key.active {
+	display: block;
+	border: 1px black solid;
+}
+
+.Keyboard .key.white.active .top,
+.Keyboard .key.white.active .bottom {
+	position: absolute;
+	background-color: green;
+	opacity: 0.6;
+}
+
+.Keyboard .key.black.active {
+	background-color: blue;
+	opacity: 0.6;	
 }

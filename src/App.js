@@ -6,11 +6,17 @@ import Keyboard from './components/Keyboard';
 import Chord from './components/Chord';
 
 class App extends Component {
+  constructor() {
+  	super();
+  	this.state = {
+  		keys: [ 'A', 'C', 'E' ]
+  	}
+  }
   render() {
     return (
       <div className="App">
         <Key />
-        <Keyboard keys="abc" />
+        <Keyboard keys={this.state.keys} />
         <Chord />
       </div>
     );

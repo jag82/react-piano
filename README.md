@@ -1,3 +1,12 @@
+#TODO:
+
+- add a way to select keys in Keyboard (add class active, use data attributes) 
+- public git repos for @jag82/key + this project
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
